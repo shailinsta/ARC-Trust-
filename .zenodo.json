@@ -1,0 +1,35 @@
+{
+  "title": "ARC-Trust+: Asynchronous Riemannian Coordination for Trust-Aware Decentralised Federated Intrusion Detection under Drift and Byzantine Attack",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "language": "eng",
+  "description": "<p>ARC-Trust+ is a fully decentralised framework for federated intrusion detection that combines a topology-aware exclusive neighbour cache with bounded staleness (TAEC), a Riemannian temporal deformation residual over symmetric positive-definite (SPD) covariance matrices (RTDR), a cryptographic canary consistency indicator (CCI), and composite trust evaluation (CTE) for trust-weighted aggregation and local isolation of Byzantine neighbours.</p><p>This record archives the experimental notebook, requirements, results and figures accompanying the manuscript. The framework is evaluated on five public datasets (CSE-CIC-IDS2018, CIDDS, Edge-IIoTset, ToN-IoT and UNSW-NB15) under non-IID partitioning, five concept-drift regimes, and sign-flip, Gaussian-noise and ALIE attacks. Datasets are not redistributed; the notebook downloads them from their public sources.</p>",
+  "creators": [
+    {
+      "name": "Mishra, Saumya",
+      "affiliation": "Department of Computer Science and Engineering, Motilal Nehru National Institute of Technology, Prayagraj, India"
+    },
+    {
+      "name": "Tahzib, Shams",
+      "affiliation": "Department of CSE & IT, Jaypee Institute of Information Technology, Noida, India"
+    },
+    {
+      "name": "Mishra, Shailendra",
+      "affiliation": "Department of Computer Engineering, College of Computer and Information Sciences, Majmaah University, Al Majmaah, Saudi Arabia"
+    }
+  ],
+  "keywords": [
+    "Decentralized federated learning",
+    "Riemannian geometry",
+    "Temporal deformation residual",
+    "Cryptographic canary",
+    "Intrusion detection",
+    "Byzantine robustness",
+    "Concept drift",
+    "SPD manifold",
+    "Trust-aware aggregation",
+    "Cybersecurity"
+  ],
+  "notes": "Code and experimental notebook for the ARC-Trust+ manuscript. Datasets are third-party and must be obtained from their original sources."
+}

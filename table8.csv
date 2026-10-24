@@ -1,0 +1,6 @@
+﻿Variant,Isolation recall,False-isolation rate,Role of disabled component
+Full ARC-Trust+,1.000,0.000,All components active
+No residual (ϕj←1),1.000,0.000,Removes residual-based trust weighting; canary remains active
+No canary (Cj←1),0.000,0.000,Removes the principal isolation signal under the tested protocol
+No staleness (Smax←∞),1.000,0.000,Removes the update-freshness bound; canary-based isolation remains active
+No EMA (τj←Tj),1.000,0.000,Removes temporal smoothing; canary-based isolation remains active
